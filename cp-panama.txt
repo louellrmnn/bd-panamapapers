@@ -1,3 +1,4 @@
 SELECT country FROM country 
 SELECT name FROM entity
 SELECT * FROM officer WHERE country_id = '5';
+SELECT count(*) FROM entity
