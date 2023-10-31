@@ -2,3 +2,4 @@ SELECT country FROM country
 SELECT name FROM entity
 SELECT * FROM officer WHERE country_id = '5';
 SELECT count(*) FROM entity
+SELECT * FROM entity WHERE incorporation_date > '2000-01-01'
